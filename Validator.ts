@@ -34,7 +34,7 @@ if (!validate) {
 }
 
 if (validate(foo)) {
-  console.log(foo) // never
+  console.log(foo)
 } else {
-  console.log(foo) // Bar
+  console.log(foo)
 }
