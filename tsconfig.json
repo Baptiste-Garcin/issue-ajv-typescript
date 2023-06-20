@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2019", // Node.js 8
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "declaration": true,
+    "pretty": true,
+    "newLine": "lf",
+    "stripInternal": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "./",
+    "strictNullChecks": true,
+    "module": "ES2022",
+    "types": ["vitest/globals"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
